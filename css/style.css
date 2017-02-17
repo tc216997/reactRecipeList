@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body{
+  background-image: url(https://hdimagesnew.com/wp-content/uploads/2015/08/1440746172_Light-Abstract-Wallpapers.jpg)
+}
+
+#appTitle{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Oleo Script',serif;
+}
+
+#container{
+  margin-top: 10px;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: Trasnparent;
+  border-radius: 10%;
+}
+
+.reactContainer{
+  position: absolute;
+}
+
+.item {
+  margin-top: 3%;
+  margin-bottom: 3%; 
+}
+.images {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: Pacifico;
+  font-size: 30px;
+}
+
+.centerDiv {
+  text-align: center;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #e3e5a5;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form>h3 {
+  color: black;
+}
+.fa-pencil-square-o {
+  font-size: 40px;
+}
+.bigIcon {
+  font-size: 190px;
+}
+
+.ingredientList {
+  width: 50%;
+  height: 150px;
+  resize: vertical;
+}
+
+#saveBtn {
+  margin-top: 15px;
+}
+
+#editBtn{
+  background-color: Transparent;
+  border: 0;  
+}
+
+#newItemBtn{
+  margin-top: 10px;
+  background-color: Transparent;
+}
+
+.panel-title{
+  text-align: center;
+}
+.panel-body{
+  border: none;
+}
+.panel-default > .panel-heading {
+  background-color: #e3e5a5;
+}
+.collapse {
+  border-radius: 10px;;
+}
+.panel-body{
+  border: 0;
+  background-color: #e3e5a5;
+}
+
+.panel {
+  border: 0;
+}
+
+.accordion-group {
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.panel-header-text {
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.panel-footer {
+  background-color: #e3e5a5;
+}
+
+li {
+  font-family: 'Just Another Hand', Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+#addNewHeading {
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.addNewDiv{
+  width: 330px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid red;
+  background-color: #e3e5a5;
+}
+
+.fa-floppy-o {
+  font-size: 40px;
+}
+
+.fa-trash-o {
+  font-size: 40px;  
+}
+.saveBtn {
+  background: Transparent;
+}
+.deleteBtn{
+  background: Transparent;
+}
+
+.imageSrcInput {
+  width: 400px;
+}
+
+.recipeNameInput {
+  width: 200px;
+}
